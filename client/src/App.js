@@ -27,9 +27,9 @@ const App = () => {
       </AppBar>
       <Grow in>
         <Container>
-          <Grid
+          <Grid /*className={classes.mainContainer}*/
             container
-            direction="column-reverse"
+            //direction="column-reverse"
             justify="space-between"
             alignItems="stretch"
             spacing={3}
