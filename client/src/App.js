@@ -29,6 +29,7 @@ const App = () => {
         <Container>
           <Grid
             container
+            direction="column-reverse"
             justify="space-between"
             alignItems="stretch"
             spacing={3}
